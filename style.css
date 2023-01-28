@@ -1,0 +1,123 @@
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font:50px arial; 
+    letter-spacing:15px; 
+    text-transform:uppercase; 
+    background-color:green; 
+    margin-top: 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size:62px;
+    padding:5px;
+    color:#000;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+h3{
+    text-align: center;
+    background-color: yellow;
+    font-size:23px;
+    letter-spacing: 2px;
+
+}
+.box{
+    margin: auto;
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    /* background-color: #2d5e96; */
+}
+
+#sname,#sfname,#smail,#spnum,#scnic,#saddress,#sclass,#sid,#sdob,span,#spic{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+#sname,#sclass,#scnic{
+    width: 43%;
+    float: left;
+}
+
+#sfname,#sid,#spnum{
+    width: 43%;
+    float: right;
+}
+
+#sdob{
+    width: 71%;
+    float:right;
+}
+
+span{
+    float:left;
+    width: 29%;
+    margin-top: 30px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    color: #000;
+    font-weight: bold;
+}
+
+#sname,#sfname,#smail,#spnum,#scnic,#saddress,#sclass::placeholder{
+    letter-spacing: 2px;
+
+}
+
+#gen1, #gen2, #gen3{
+    height: 17px;
+    width: 17px;
+    margin-top: 30px;
+}
+
+.gen{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 23px;
+    size: 50px;
+    color: #000;
+    
+}
+#saddress{
+    resize: none;
+    display: block;
+    width: 100.3%;
+}
+
+#spic{
+    color: black;
+}
+
+ #btn {
+    background-color: #5ca0ee;
+    width: 170px;
+    height: 50px;
+    margin: 25px 10px;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+  }
+ #btn:hover {
+    background-image: linear-gradient(#4a9efc, #2d5e96);
+    color: white;
+    font-size: 19px;
+  }
